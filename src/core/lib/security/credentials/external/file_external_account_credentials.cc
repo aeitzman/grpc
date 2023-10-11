@@ -137,7 +137,7 @@ void FileExternalAccountCredentials::RetrieveSubjectToken(
   cb(std::string(content), absl::OkStatus());
 }
 
-std::string FileExternalAccountCredentials::CredentialSourceType(){
+std::string FileExternalAccountCredentials::CredentialSourceType() {
   return "file";
 }
 
